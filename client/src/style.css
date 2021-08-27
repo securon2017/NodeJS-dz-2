@@ -1,0 +1,96 @@
+body, h2 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #4582e6;
+    font-size: 25px;
+    color: #fff;
+    padding: 30px 100px;
+    margin-bottom: 15px;
+}
+
+.main {
+    display: flex;
+}
+
+.task__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    font-size: 22px;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+.task__item:hover {
+    cursor: pointer;
+    /* background-color: darkgray; */
+}
+
+.remove__list {
+    list-style: none;
+}
+
+.remove__icon:hover {
+    cursor: pointer;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.remove__task {
+    width: 10%;
+}
+
+.tasks {
+    width: 88%;
+}
+
+.loadBtn, .submitBtn{   
+    text-decoration: none;
+    text-transform: uppercase;    
+    background-color: #4582e6;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+}
+
+.submitBtn{
+    margin-left: 20px;
+}
+
+.submitBtn:hover{
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #4582e6;
+    margin-left: 10px;
+}
+

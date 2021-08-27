@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru-UA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h2 class="title">My Tasks</h2>
+        </header>
+        <div class="menu">
+            <div class="load__tasks">
+                <a href="#" class="loadBtn">Refresh</a>
+            </div>
+            <div class="add__task">
+                <form action="" class="new__task">
+                    <label for="task__title">Title:</label>
+                    <input id="task__title" type="text" class="title">
+                    <label for="task__text">Text:</label>
+                    <input id="task__text" type="text" class="text">
+                    <label for="task__date">Date:</label>
+                    <input id="task__date" type="date" class="date">
+                    <input type="submit" value="Add Task" class="submitBtn">
+                </form>
+            </div>
+        </div>
+        <div class="main">
+            <div class="tasks">
+                <ul class="task__list">
+
+                </ul>
+            </div>
+            <div class="remove__task">
+                <ul class="remove__list">
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/main.bundle.js"></script>
+</body>
+
+</html>
